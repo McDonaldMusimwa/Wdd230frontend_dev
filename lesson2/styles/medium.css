@@ -1,0 +1,138 @@
+@media only screen and (min-width:35rem) {
+   :root {
+      --dark1: #344E41;
+      --dark2: #3A5A40;
+      --middle: #588157;
+      --light1: #A3B18A;
+      --light: #DAD7CD;
+
+
+   }
+   body{
+      margin: 0;
+   }
+ 
+
+   .logo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+   }
+
+   header {
+      background-color: var(--dark1);
+      width: 95vw;
+   }
+
+   h1 {
+      color: var(--light);
+   }
+
+   h3 {
+      margin-left: 8rem;
+   }
+
+   .firstsite {
+      border: 1px solid var(--dark1);
+      width: 690px;
+      height: 650px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 0;
+      margin-right: 0;
+
+   }
+
+   .firstsite>h1 {
+
+      color: black;
+      margin-left: 14rem;
+   }
+
+   .firstsite>p {
+      color: black;
+      margin-top: 1rem;
+   }
+
+   .secondsite {
+      border: 1px solid var(--dark1);
+      width: 690px;
+      height: 700px;
+      display: block;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 0;
+      margin-right: 0;
+   }
+
+   .secondsite>h1 {
+      margin: 5px 16rem;
+      color: black;
+   }
+
+   .secondsite>p {
+      color: black;
+      margin-top: 1rem;
+   }
+
+   .thirdsite {
+      border: 1px solid var(--dark1);
+      width: 690px;
+      height: 650px;
+      display: block;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 0;
+      margin-right: 0;
+   }
+
+   .thirdsite>h1 {
+      margin: 5px 15rem;
+      color: black;
+   }
+
+   .thirdsite>p {
+      color: black;
+      margin-top: 1rem;
+   }
+
+   .image {
+      width: 400px;
+      height: 400px;
+      box-shadow: 10px 10px 5px #aaaaaa;
+      margin-left: 8rem;
+   }
+
+   a {
+      color: var(--dark1);
+      margin-left: 2rem;
+   }
+
+   .body {
+      margin-left: 1rem;
+   }
+
+
+   footer {
+      background-color: var(--dark1);
+      width: 95vw;
+   }
+
+
+
+   footer>p {
+      display: inline;
+   }
+
+   footer>h3 {
+      display: flex;
+      margin-left: 2rem;
+
+   }
+}

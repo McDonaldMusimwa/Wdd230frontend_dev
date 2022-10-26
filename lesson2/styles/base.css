@@ -1,0 +1,128 @@
+:root {
+    --dark1: #344E41;
+    --dark2: #3A5A40;
+    --middle: #588157;
+    --light1: #A3B18A;
+    --light: #DAD7CD;
+
+
+}
+*{
+   margin: 0;
+    overflow: none;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+header{
+    background-color: var(--dark1);
+    width: 500px;
+}
+h1{
+    color: var(--light);
+}
+h3{
+    margin: 2px 4rem ;
+}
+.firstsite{
+    border: 1px solid var(--dark1);
+    width: 450px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.firstsite>h1{
+    margin-left:2px;
+    color: black;
+    margin-left: 7rem;
+}
+.firstsite>p{
+    color: black;
+    margin-top: 1rem;
+}
+.secondsite{
+    border: 1px solid var(--dark1);
+    width: 450px;
+    height: 700px;
+    display: block;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondsite>h1{
+    margin: 5px 10rem;
+    color: black;
+}
+.secondsite>p{
+    color: black;
+    margin-top: 1rem;
+}
+.thirdsite{
+    border: 1px solid var(--dark1);
+    width: 450px;
+    height: 650px;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.thirdsite>h1{
+    margin: 5px 9rem;
+    color: black;
+}
+.thirdsite>p{
+    color: black;
+    margin-top: 1rem;
+}
+.image{
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-left: 1.5rem;
+}
+a{
+    color: var(--dark1);
+    margin-left: 2rem;
+}
+.body{
+    margin-left: 1rem;
+}
+
+
+footer {
+    background-color: var(--dark1);
+    width: 500px;
+}
+footer>img{
+    margin-left: 10rem;
+}
+.contact>h3,p,a{
+    justify-content: center;
+    margin: 0.2rem;
+    color: var(--light);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footbottom{
+    display: inline-block;
+    margin-left: 8rem;
+}
+.footbottom>span{
+    color: var(--light);
+    align-items: center;
+    justify-content: center;
+}
+footer>p {
+    display: inline;
+}

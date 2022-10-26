@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="McDonald Musimwa" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta property="og:description"
+        content="The champer of commerce offers professional tech advice and tech services to businesses about how to maximizer their online presence  " />
+    <title>Champer of Commerce</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./images/logo.png" alt="logo" />
+        <h1>Choriso Champer of commerce</h1>
+        <div class="date"></div>
+        <nav>
+            <button id="humburgerBtn">&#9776;</button>
+
+            <a href="https://www.linkedin.com/in/mcdonald-musimwa-434589124" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+
+
+            <ul id="primaryNav">
+                <li><a href="">Home</a></li>
+                <li class="active"><a href="">Discovery</a></li>
+                <li><a href="">Director</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="middle">
+            <div class="hero">
+                <picture class="image">
+                    <source media="(max-width:200px)" srcset="images/small.jpg"
+                        alt="three business associates sitting around a table discussing">
+                    <source media="(max-width:500px)" src="images/medium.jpg"
+                        alt="three business associates sitting around a table discussing">
+                    <source media="(max-width:800px)" srcset="images/large.jpg"
+                        alt="three business associates sitting around a table discussing">
+                    <img class="heroimg" src="images/wdd230-org.jpg"
+                        alt="three business associates sitting around a table discussing" />
+
+                </picture>
+                <button class="herobutton">Join Us</button>
+            </div>
+            <div class="updates">
+                <h2>Event Updates</h2>
+                <ul>
+                    <li>5% discount on early booking</li>
+                    <li>Vegan food menu</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="leftside">
+            <div class="component1">
+                <h2>Weather Conditions</h2>
+                <picture><img src="./images/weather.png" alt="" /></picture>
+                <h3>28° C partly cloudy</h3>
+                <div class="line"></div>
+                <label>Wind Speed:<span id="windspeed"></span> km/hr</label>
+                <label>Wind Chill:<span id="windchill"></span></label>
+
+            </div>
+            <div class="component2">
+                <div>
+                    <h2>Trainings</h2>
+                    <p>Give us a call for staff trainings</p>
+                    <p>+27 000 0000</p>
+                </div>
+            </div>
+            <div class="component3">
+                <button>Join Us</button>
+                <span>Come join this life changing even ,bring your questions and find out how you can establish yout
+                    business</span>
+
+            </div>
+
+        </div>
+        <!----
+       -->
+        <div class="rightbar">
+            <div class="component4">
+                <h2>Consultations</h2>
+                <label>Accouting:<span>+27 100 0000</span></label>
+
+            </div>
+            <div class="component5">
+                <h2>Annual Enterprenuer`s conference</h2>
+                <span>This year`s Enterprenuer`s annual conference will be held in the beautifull city of
+                    CapeTown</span>
+
+            </div>
+            <div class="component6">
+                <h2>Contacts</h2>
+                <p>hhhhhh@commercechamper.co.za</p>
+                <p>Phone:27 000 0000</p>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <img class="logo" src="./images/logo.jpg" alt="logo" />
+
+        <section class="contact">
+            <h3>Choriso Champer of commerce</h3>
+            <p>| info: mcdonald.musimwa74@gmail.com |</p>
+            <p>
+                <a
+                    href="https://www.google.com/maps/place/1+Coach+Rd,+Wynberg,+Cape+Town,+7800/@-33.9992151,18.4557451,3a,75y,150.74h,85.72t/data=!3m6!1e1!3m4!1syTeU4irYfaPWB_RYpOfqDg!2e0!7i13312!8i6656!4m5!3m4!1s0x1dcc42ebc885a3fb:0xa198bf37d00d1ca9!8m2!3d-33.9997883!4d18.4561197?hl=en">Location
+                </a>
+            </p>
+        </section>
+        <section class="footbottom">
+            <p>&copy;:Champer of commerce 2022</p>
+            <p>| developed by McDonald Musimwa |</p>
+            <span>Last Modified :<date id="date"></date>
+            </span>
+        </section>
+
+    </footer>
+
+    <script src="js/windchill.js"></script>
+    <script src="scripts/script1.js"></script>
+</body>
+
+</html>

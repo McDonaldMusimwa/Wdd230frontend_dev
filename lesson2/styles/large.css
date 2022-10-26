@@ -1,0 +1,131 @@
+@media only screen and (min-width:64rem) {
+
+    :root {
+        --blue: #6d9889;
+    }
+
+    * {
+        margin: 0;
+
+    }
+
+
+    .head>img {
+        width: 240px;
+        height: 240px;
+        display: flex;
+        margin: 2rem 1rem 2rem 2rem;
+        box-shadow: 1px black;
+        box-shadow: 4px 4px #535554;
+    }
+
+    .head {
+        background-color: var(--blue);
+        display: flex;
+        height: 300px;
+    }
+
+    .head>h1 {
+        margin-left: 4rem;
+        margin-top: 6rem;
+    }
+
+    h3 {
+        text-decoration: underline;
+        margin: 1rem 2rem 2rem 35rem;
+    }
+
+    .main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        margin: 1rem 2rem 2rem 35rem;
+    }
+
+    .footer {
+        background-color: var(--blue);
+        width: 98%;
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    footer {
+        margin-left: 0;
+    }
+
+    .footer>h3 {
+
+        margin-right: 0;
+
+    }
+
+    .body {
+        display: grid;
+        grid-template-columns: 20rem 20rem 20rem;
+        gap: 9rem;
+        margin: 2rem 0 3rem 0;
+    }
+
+    .firstsite {
+        width: 30vw;
+        height: 100vh;
+        grid-column: 1/2;
+        border: 1px solid #5c5d5cf2;
+        border-radius: 4px;
+        margin: 10px 3px 3px 8px;
+
+    }
+
+    .secondsite {
+        height: 100vh;
+        width: 30vw;
+        grid-column: 2/3;
+        border: 1px solid #5c5d5cf2;
+        border-radius: 2px;
+        margin: 10px 3px 3px 8px;
+
+    }
+
+    .thirdsite {
+        height: 100vh;
+        width: 30vw;
+        grid-column: 3/4;
+        border: 1px solid #5c5d5cf2;
+        border-radius: 2px;
+        margin: 10px 3px 3px 8px;
+
+    }
+
+    img {
+        width: 28.5vw;
+        height: 40vh;
+        margin: 2px 2px 2px 2px;
+        box-shadow: 0 0 15px #333;
+    }
+
+    .heading {
+        background-color: #dad7cd;
+        border-radius: 4px;
+        color: black;
+        margin: 2px;
+        padding-left: 4rem;
+    }
+
+    h3 {
+        margin: 0;
+        padding: 2rem;
+    }
+
+    p {
+        margin: 1rem;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .footer {
+        margin: 1px 3rem 1px 3rem;
+    }
+}
