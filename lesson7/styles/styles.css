@@ -1,0 +1,12 @@
+*{
+    overflow-x: hidden;
+}
+
+picture {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(99, 207, 130);
+    border: 1px solid rgb(16, 14, 14);
+    margin: 5px;
+}
