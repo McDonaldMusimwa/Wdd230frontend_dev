@@ -21,7 +21,7 @@ const imageObeservor= new IntersectionObserver((entries,imageObeservor)=>{
             return
         }else{
             preloadImage(entry.target)
-            imageObeservor.unobserve(entry.target)
+            imageObeservor.unobserve(entry.target);
         }
     })
     
