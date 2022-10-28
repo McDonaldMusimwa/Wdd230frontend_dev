@@ -2,7 +2,8 @@
     nav ul li a {
         padding: 0.5rem 1rem;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-direction: row;
     }
@@ -27,14 +28,17 @@
         margin-left: 2rem;
     }
 
-    .leftside{
+    .leftside {
         grid-row: 1/3;
         gap: 6px;
         width: 19vw;
         height: 108vh;
-        margin-top:0rem ;
+        margin-top: 0rem;
     }
-    .component1,.component2,.component3{
+
+    .component1,
+    .component2,
+    .component3 {
         height: 34.59vh;
         padding: 2px;
         width: 17vw;
@@ -43,17 +47,20 @@
         justify-content: center;
         align-items: center;
     }
-    
-    .rightbar{
+
+    .rightbar {
         grid-column: 3/4;
         grid-row: 1/3;
         gap: 6px;
         height: 109vh;
         display: flex;
         flex-direction: column;
-        margin:0rem 1rem 0rem 0.8rem ;
+        margin: 0rem 1rem 0rem 0.8rem;
     }
-    .component4,.component5,.component6{
+
+    .component4,
+    .component5,
+    .component6 {
         height: 34.70vh;
         padding: 2px;
         width: 17vw;
@@ -62,37 +69,42 @@
         justify-content: center;
         align-items: center;
     }
-    body{
+
+    body {
         height: 120vh;
-        
+
     }
-    .middle{
+
+    .middle {
         grid-column: 2/3;
         grid-row: 1/3;
         height: 100%;
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        
+
         width: 57.59vw;
-       
-    }
-    .hero{
-        height:75%;
-        margin: 0;
-        
 
     }
-    .updates{
+
+    .hero {
+        height: 75%;
+        margin: 0;
+
+
+    }
+
+    .updates {
         height: 20%;
         box-shadow: 8px 5px var(--middle);
     }
-    .hero>picture{
+
+    .hero>picture {
         height: 100%;
         overflow: hidden
     }
- 
-    main{
+
+    main {
         margin: 1rem 1rem 2rem 1rem;
         overflow: hidden;
         height: 90%;
@@ -101,7 +113,7 @@
         grid-template-rows: 60% 40%;
     }
 
-    .heroimg{
+    .heroimg {
         height: 100%;
         width: 100%;
     }
@@ -113,44 +125,82 @@
         justify-content: center;
         align-items: center;
         margin: 0.4rem 4rem 4rem 12rem;
-        
+
     }
-    .footbottom{
+
+    .footbottom {
         display: inline-block;
         margin-left: 6rem;
     }
-    nav>li:hover{
+
+    nav>li:hover {
         background-color: var(--dark1);
     }
-    .component{
+
+    .component {
         color: var(--dark1);
         background-color: var(--light);
         padding: 2px;
     }
-    .component>span{
+
+    .component>span {
         font-size: 15px;
         margin: 10px 102px 10px 10px;
     }
-    .component5>h2{
+
+    .component5>h2 {
         margin-left: 1.5rem;
     }
-    .component5>span{
+
+    .component5>span {
         margin-left: 0.5rem;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    .contact{
+
+    .contact {
         margin: 0 0 0 5rem;
     }
-    .hero picture img{
+
+    .hero picture img {
         width: 100%;
         height: 100%;
     }
+
     .herobutton {
         left: 25rem;
     }
 
+    /*Discovery*/
+    .wrap {
+        width: 100%;
+        height: 80%;
+        overflow: hidden;
+        border: none;
+    }
+
+    .ele {
+        margin: 0;
+    }
+
+    picture {
+        height: 100%;
+    }
+
+    .wrap img {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    p {
+        color: black;
+        margin: 2px;
+        padding: 2px0;
+    }
 }
+
