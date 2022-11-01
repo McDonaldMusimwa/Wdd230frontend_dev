@@ -1,0 +1,51 @@
+h2 {
+    margin:1px 17.5% ;
+    background-color: rgb(87, 164, 66);
+    height: 50px;
+    width: 194px;
+    text-align: center;
+    border: 2px solid black;
+    
+    
+}
+main{
+    margin-top: 4rem;
+}
+table{
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    width: 200px;
+    height: 300px;
+    
+    margin:0rem auto ;
+    
+
+}
+tr:nth-child(3){
+    background-color:rgb(87, 164, 66);
+}
+
+table,tr,th{
+    border: 1px solid black;
+}
+th{
+    background-color: rgb(160, 232, 232);
+}
+tr{
+    background-color: antiquewhite;
+}
+
+@media only screen and (min-width: 768px){
+    table,h2{
+        width: 500px;
+        
+    }
+    h2{
+        margin-left: 27.4rem;
+        
+    }
+
+
+}
