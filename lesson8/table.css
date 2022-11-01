@@ -1,12 +1,7 @@
-h2 {
-    margin:1px 17.5% ;
-    background-color: rgb(87, 164, 66);
-    height: 50px;
-    width: 194px;
-    text-align: center;
-    border: 2px solid black;
-    
-    
+caption{
+    background-color: aquamarine;
+    border: 1px solid black;
+
 }
 main{
     margin-top: 4rem;
@@ -31,10 +26,10 @@ table,tr,th{
     border: 1px solid black;
 }
 th{
-    background-color: rgb(160, 232, 232);
+    background-color: rgb(171, 232, 160);
 }
 tr{
-    background-color: antiquewhite;
+    background-color: rgb(221, 250, 215);
 }
 
 @media only screen and (min-width: 768px){
@@ -42,10 +37,18 @@ tr{
         width: 500px;
         
     }
-    h2{
-        margin-left: 27.4rem;
-        
+    caption{
+        width: 493px;
     }
-
+    table{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    td,tr,th{
+        width: 400px;
+        height: 35px;
+    }
 
 }
