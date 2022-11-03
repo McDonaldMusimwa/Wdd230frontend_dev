@@ -37,7 +37,7 @@
                 <li><a href="">Home</a></li>
                 <li class="active"><a href="discover.html">Discovery</a></li>
                 <li><a href="">Director</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="">Join</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
             
@@ -46,77 +46,39 @@
     </header>
     
     <main class="mainhome">
+        <h2>Join Us</h2>
 
-        <div class="middle">
-            <div class="hero">
-                <picture class="image">
-                    <source media="(max-width:200px)" srcset="images/small.jpg"
-                        alt="three business associates sitting around a table discussing">
-                    <source media="(max-width:500px)" src="images/medium.jpg"
-                        alt="three business associates sitting around a table discussing">
-                    <source media="(max-width:800px)" srcset="images/large.jpg"
-                        alt="three business associates sitting around a table discussing">
-                    <img class="heroimg" src="images/wdd230-org.jpg"
-                        alt="three business associates sitting around a table discussing" />
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First name<input type="text" name="fname" required></label>
+                <label>Last name<input type="text" name="lname" required></label>
+                <label>title<input type="text" name="fname" pattern="^[a-zA-Z0-9_]*${7}" ></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="123555666"></label>
+                <label>Busines name<input type="text" name="bname" required></label>
+            </fieldset>
+            <fieldset>
+                <label>Membership Details</label>
+                <div>Audience</div>
+                
+                
+                <label><input type="radio" name="audience" value="NPmember">NP Membership (free)</label>
+                <label><input type="radio" name="audience" value="NPmember">Bronze Membership </label>
+                <label><input type="radio" name="audience" value="NPmember">Silver Membership</label>
+                <label><input type="radio" name="audience" value="NPmember">Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <div>Give us a brief description of your business</div>
+                <label><input type="textarea" name="tarea" ></label>
+            </fieldset>
+           <input class="joinBtn" type="button" value="Join Us">
 
-                </picture>
-                <button class="herobutton">Join Us</button>
-            </div>
-            <div class="updates">
-                <h2>Event Updates</h2>
-                <ul>
-                    <li>5% discount on early booking</li>
-                    <li>Vegan food menu</li>
-                </ul>
-            </div>
 
-        </div>
-        <div class="leftside">
-            <div class="component1">
-                <h2>Weather Conditions</h2>
-                <picture><img src="./images/weather.png" alt="" /></picture>
-                <h3>28° C partly cloudy</h3>
-                <div class="line"></div>
-                <label>Wind Speed:<span id="windspeed"></span> km/hr</label>
-                <label>Wind Chill:<span id="windchill"></span></label>
 
-            </div>
-            <div class="component2">
-                <div>
-                    <h2>Trainings</h2>
-                    <p>Give us a call for staff trainings</p>
-                    <p>+27 000 0000</p>
-                </div>
-            </div>
-            <div class="component3">
-                <button href="join.html">Join Us</button>
-                <span>Come join this life changing even ,bring your questions and find out how you can establish yout
-                    business</span>
 
-            </div>
-
-        </div>
-        <!----
-       -->
-        <div class="rightbar">
-            <div class="component4">
-                <h2>Consultations</h2>
-                <label>Accouting:<span>+27 100 0000</span></label>
-
-            </div>
-            <div class="component5">
-                <h2>Annual Enterprenuer`s conference</h2>
-                <span>This year`s Enterprenuer`s annual conference will be held in the beautifull city of
-                    CapeTown</span>
-
-            </div>
-            <div class="component6">
-                <h2>Contacts</h2>
-                <p>hhhhhh@commercechamper.co.za</p>
-                <p>Phone:27 000 0000</p>
-            </div>
-        </div>
-
+        </form>
+    
 
 
     </main>
