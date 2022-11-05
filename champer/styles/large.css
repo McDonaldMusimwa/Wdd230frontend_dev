@@ -207,5 +207,50 @@
         align-items: center;
     }
 
+    /*join us form */
+
+    form{
+        overflow-y: hidden;
+        height: 100%;
+    }
+
+    .mainhomejoin{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-content: center;
+    }
+    form div.details ol{
+        list-style-type: upper-roman;
+        margin: 0.2rem;
+    
+    }
+    form label.top input,
+form label.top select,form div.sbs select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width:100%;
+    max-width: 42rem;
+    background-color:rgba(0,0,0,0.1) ;
+}
+form label.text input {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width:100%;
+    max-width: 55.5rem;
+    height: 10rem;
+    background-color:rgba(0,0,0,0.1) ;
+
+}
+
 }
 

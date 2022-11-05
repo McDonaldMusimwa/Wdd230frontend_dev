@@ -10,7 +10,8 @@
     <meta property="og:description"
         content="The champer of commerce offers professional tech advice and tech services to businesses about how to maximizer their online presence  " />
     <title>Champer of Commerce</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,300;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,300;1,600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/base.css" />
@@ -25,7 +26,7 @@
     <header>
         <img class="logo" src="images/logo.png" alt="logo" />
         <h1>Choriso Champer of commerce</h1>
-       
+
         <nav>
             <button id="humburgerBtn">&#9776;</button>
 
@@ -34,51 +35,94 @@
 
 
             <ul id="primaryNav">
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="discover.html">Discovery</a></li>
                 <li><a href="">Director</a></li>
-                <li><a href="">Join</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            
+
         </nav>
         <div class="date"></div>
     </header>
-    
-    <main class="mainhome">
+
+    <main class="mainhomejoin">
         <h2>Join Us</h2>
 
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label>First name<input type="text" name="fname" required></label>
-                <label>Last name<input type="text" name="lname" required></label>
-                <label>title<input type="text" name="fname" pattern="^[a-zA-Z0-9_]*${7}" ></label>
-                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">First name*<input type="text" name="fname" required></label>
+                <label class="top">Last name*<input type="text" name="lname" required></label>
+                <label class="top">title*<input type="text" name="fname" pattern="^[a-zA-Z0-9_]*${7}"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
                 <label class="top">Phone*<input type="tel" name="phone" placeholder="123555666"></label>
-                <label>Busines name<input type="text" name="bname" required></label>
+                <label class="top">Busines name<input type="text" name="bname" required></label>
             </fieldset>
             <fieldset>
-                <label>Membership Details</label>
-                <div>Audience</div>
-                
-                
-                <label><input type="radio" name="audience" value="NPmember">NP Membership (free)</label>
-                <label><input type="radio" name="audience" value="NPmember">Bronze Membership </label>
-                <label><input type="radio" name="audience" value="NPmember">Silver Membership</label>
-                <label><input type="radio" name="audience" value="NPmember">Gold Membership</label>
+                <legend>Membership Details</legend>
+                <div>
+                    <div class="details" style="color:black;"><strong>Np Member: Free</strong>
+                        <ol>
+                            <li>Free monthly advice</li>
+
+
+                        </ol>
+                    </div>
+                    <div class="details" style="color:black;">
+                        <strong>Bronze Membership: is R100</strong>
+                        <ol>
+                            <li>Free monthly advice</li>
+                            <li>Tranings</li>
+
+                        </ol>
+                    </div>
+                    <div class="details" style="color:black;">
+                        <strong>Silver Membership: R250</strong>
+                        <ol>
+                            <li>Free monthly advice</li>
+                            <li>Tranings</li>
+                            <li>Consultations</li>
+                            <li>trainings</li>
+
+                        </ol>
+                    </div>
+                    <div class="details" style="color:black;"><strong>Gold Membership: R400</strong>
+                        <ol>
+                            <li>Free monthly advice</li>
+                            <li>Tranings</li>
+                            <li>Consultations</li>
+                            <li>trainings</li>
+                            <li>advertising</li>
+                        </ol>
+                    </div>
+
+                </div>
+
+                <div class="sbs">Please select Membership
+                    <select>
+                        <option value="select">Please select &#9662</option>
+                        <option value="NPmember">NP Membership (free)</option>
+                        <option value="NPmember">Bronze Membership </option>
+                        <option value="NPmember">Silver Membership</option>
+                        <option value="NPmember">Gold Membership</option>
+                    </select>
+                </div>
+
             </fieldset>
             <fieldset>
+                <legend>Client Business details</legend>
                 <div>Give us a brief description of your business</div>
-                <label><input type="textarea" name="tarea" ></label>
+                <label class="text"><input type="textarea" name="tarea"></label>
             </fieldset>
-           <input class="joinBtn" type="button" value="Join Us">
+            <input class="joinBtn" type="button" value="Join Us">
 
 
 
 
         </form>
-    
+
 
 
     </main>
