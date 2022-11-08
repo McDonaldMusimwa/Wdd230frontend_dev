@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(194, 232, 237);
+    overflow-x: hidden;
+    margin: 0.4rem;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    text-align: center;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    background-color: rgb(73, 219, 239);
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+h2{
+    overflow: hidden;
+    
+    box-shadow: 2px 1px 1px 1px #aaaaaa;
+    padding: 4px;
+    height: 15%;
+    text-align: center;
+}
+p{
+    overflow: hidden;
+    background-color: transparent;
+}
