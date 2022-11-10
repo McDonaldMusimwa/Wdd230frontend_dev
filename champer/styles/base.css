@@ -24,7 +24,7 @@ body {
 
 
 header {
-    background-color: var(--dark1);
+    background-color: var(--light);
     height: 310px;
     border-radius: 8px;
 }
@@ -45,8 +45,8 @@ h1 {
 .date {
     width: 80%;
     height: 20px;
-    background-color: var(--middle);
-    color: var(--light);
+    background-color: var(--light1);
+    color: var(--dark1);
     margin-bottom: 1rem;
     margin: 10px auto;
     border-radius: .75rem;
@@ -93,7 +93,9 @@ h1 {
 }
 
 nav {
-    background-color: var(--middle);
+    display: flex;
+    flex-direction: row;
+    background-color: var(--light1);
     text-align: center;
     padding: auto;
     border-radius: .75rem;
@@ -154,6 +156,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 12.5px;
 }
 
 
@@ -178,6 +181,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footbottom>span {
@@ -351,14 +355,14 @@ a {
 }
 
 button {
-    background-color: var(--dark1);
+    
     color: var(--light);
     border-radius: 4px;
     padding: 6px;
     border: 0.1px solid var(--light1);
     width: 6rem;
     padding: 1rem;
-    background: rgba(64, 85, 58, 0.834);
+    background: var(--dark1);
     backdrop-filter: saturate(180%) blur(10px);
     font-weight: bold;
     text-align: center;
@@ -386,8 +390,8 @@ button {
 }
 
 button:hover {
-    background-color: var(--light);
-    color: var(--dark1);
+    background-color: var(--dark1);
+    color: var(--light);
     animation: effect 0.4s infinite;
 }
 
@@ -439,9 +443,9 @@ button:hover {
     margin-top: 5rem;
     border: 1px solid rgb(15, 15, 15);
     border-radius: 4px;
-    background-color: rgb(150, 150, 150);
+    background-color: var(--light);
     padding: 2px;
-    box-shadow: 2px 2px 4px #999;
+    box-shadow: 2px 2px 4px 4px #999;
 }
 
 .imgd {
@@ -584,4 +588,50 @@ form div.details{
 form div.details ol{
     margin: 1rem;
 
+}
+
+/*Directory  Cards*/
+.mainhomedire{
+    margin-top: 1rem;
+    height: 3100px;
+
+}
+.mainhomedire h2{
+    margin: 1rem 1rem 1rem 2.5rem;
+ }
+.directory{
+  
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+
+.card{
+    
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    box-shadow: 4px 5px 8px 1px gray;
+}
+
+.card a:hover{
+    cursor: pointer;
+}
+.footbottom{
+    padding:-20px; 
+}
+.link{
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    background-color: var(--light1);
+}
+.card p,label{
+    overflow: hidden;
+    margin: 2px;
 }

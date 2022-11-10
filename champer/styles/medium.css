@@ -100,7 +100,7 @@
    }
 
    .contact>h3,
-   
+
    a {
       justify-content: center;
       margin: 0.2rem;
@@ -133,16 +133,20 @@
       overflow: hidden;
       border: none;
    }
-   .discoverimage{
+
+   .discoverimage {
       height: 60%;
    }
-   .imgd{
+
+   .imgd {
       height: 100%;
       width: 100%;
    }
-   .ele{
+
+   .ele {
       margin-top: 1rem;
    }
+
    /*form*/
    form label.text input {
       display: block;
@@ -151,12 +155,34 @@
       border-radius: 4px;
       padding: .75rem;
       color: #555;
-      width:100%;
+      width: 100%;
       max-width: 42rem;
       height: 10rem;
-      background-color:rgba(0,0,0,0.1) ;
-  
-  }
-  
+      background-color: rgba(0, 0, 0, 0.1);
 
+   }
+
+   /* directory card*/
+
+   .directory {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      gap: 5px;
+      width: 100%;
+      height: 100%;
+   }
+
+   .card {
+      width: 400px;
+      height: 500px;
+   }
+   .mainhomedire{
+      text-align: center;
+      overflow:hidden ;
+   }
+   .mainhomedire h2{
+      margin: 2px;
+   }
 }
+
+

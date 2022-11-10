@@ -1,5 +1,10 @@
 @media screen and (min-width:  32.5em) {
-    
+    footer{
+        background-color: var(--blue);
+        width:auto ;
+        height: 200px;
+        display: flex;
+    }
 
 
 

@@ -9,9 +9,9 @@ fetch(requestURL)
         console.table(jsonObject);  // temporary checking for valid response and data parsing
         const prophets = jsonObject['prophets'];
         prophets.forEach(displayProphets);
-    
+
     });
-  
+
 
 
 
@@ -27,7 +27,7 @@ function displayProphets(prophet) {
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
     dateOfBirth.textContent = "Date of Birth: " + prophet.birthdate;
     placeOfBirth.textContent = "Place of Birth: " + prophet.birthplace;
-       
+
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
