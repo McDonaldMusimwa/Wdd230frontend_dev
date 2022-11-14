@@ -1,11 +1,31 @@
-var windspeed = 50;
-var temperature = 100;
-if (windspeed>3.0 &&temperature>=50){
-    const windchill = 35.74 + (0.6215*temperature)-(35.75*(windspeed**0.16)) + 0.4275 * temperature * (windspeed**0.16)
-    document.getElementById("windspeed").innerHTML= windspeed
-    document.getElementById("windchill").innerHTML= windchill.toFixed(2);
-    console.log(windchill)
-}else{
-    console.log("provide valid windspeed and temperature")
+const link = "https://api.openweathermap.org/data/2.5/weather?lat=33.92&lon=18.42&appid=9dba74ad951c2fadc70f5eb71a9af966"
+
+getWeatherData(link)
+
+async function getWeatherData(link) {
+    const response = await fetch(link)
+
+    if (response.ok) {
+        const weatherData = await response.json();
+        console.log(weatherData)
+        appendDom(weatherData)
+    }
+
+
+
 }
 
+
+
+
+
+
+function appendDom(data) {
+
+    
+    document.getElementById("windspeed").innerHTML = windspeed
+    document.getElementById("windchill").innerHTML = windchill.toFixed(2);
+
+
+
+}
