@@ -7,12 +7,13 @@ function toggleMenu() {
 document.getElementById('humburgerBtn').onclick = toggleMenu
 
 //header date
-const dateheader = document.querySelector(".date")
+const headerdate = document.querySelector(".date")
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
-dateheader.innerHTML = (fulldate)
+
+headerdate.innerHTML = `<strong>${fulldate}</strong>`
 
 //footer last modified date
 
