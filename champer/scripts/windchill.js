@@ -1,3 +1,4 @@
+
 const link = "https://api.openweathermap.org/data/2.5/weather?lat=33.92&lon=18.42&appid=9dba74ad951c2fadc70f5eb71a9af966&units=metric"
 
 // select HTML elements in the document

@@ -1,10 +1,13 @@
 import daTa from './data.json' assert{type: 'json'};
 
 function toggleMenu() {
-	document.getElementById("primaryNav").classList.toggle("open")
+	document.getElementById("primaryNav").classList.toggle("open");
+	document.getElementById("humburgerBtn").classList.toggle("open");
 
 }
-document.getElementById('humburgerBtn').onclick = toggleMenu
+
+const btnmenu = document.getElementById('humburgerBtn')
+btnmenu.onclick = toggleMenu
 
 //header date
 const headerdate = document.querySelector(".date")

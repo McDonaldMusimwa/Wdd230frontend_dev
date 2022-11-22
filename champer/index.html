@@ -10,7 +10,8 @@
     <meta property="og:description"
         content="The champer of commerce offers professional tech advice and tech services to businesses about how to maximizer their online presence  " />
     <title>Champer of Commerce</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,300;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,300;1,600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/base.css" />
@@ -23,15 +24,20 @@
 
 <body>
     <header>
-        <img class="logo" src="images/logo.png" alt="logo" />
-        <h1>Choriso Champer of commerce</h1>
-       
-        <nav>
-            <button id="humburgerBtn">&#9776;</button>
-
+        <div class="topheader">
+            <img class="logo" src="images/logo.png" alt="logo" />
+            <h1>Choriso Champer of commerce</h1>
             <a href="https://www.linkedin.com/in/mcdonald-musimwa-434589124" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-twitter"></a>
 
+        </div>
+
+
+        <nav>
+            <button id="humburgerBtn">
+                <span>&#9776;</span>
+                <span>X</span>
+            </button>
 
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
@@ -40,11 +46,11 @@
                 <li><a href="join.html">Join</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            
+
         </nav>
         <div class="date"></div>
     </header>
-    
+
     <main class="mainhome">
 
         <div class="middle">
@@ -60,7 +66,7 @@
                         alt="three business associates sitting around a table discussing" />
 
                 </picture>
-                <button class="herobutton" href="join.html">Join Us</button>
+
             </div>
             <div class="updates">
                 <h2>Event Updates</h2>
@@ -72,46 +78,47 @@
 
         </div>
         <div class="leftside">
-            <div class="component1">
-                <h2>Weather Conditions</h2>
+            <div class="component one">
+                <h2>Weather Updates</h2>
                 <picture><img id="weather-icon" src="" alt="" /></picture>
-                <h3>28° C partly cloudy</h3>
+                <span><h3 style="display: inline;">28 partly cloudy</h3>° C</span>
                 <div class="line"></div>
-                <label>Wind Speed:<span id="windspeed"></span> km/hr</label>
-                <label>Wind Chill:<span id="windchill"></span></label>
+                <label style="font-size:20px ;">Wind Speed:<span id="windspeed"></span> km/hr</label>
+                <label style="font-size:20px ;">Wind Chill:<span id="windchill"></span></label>
 
             </div>
-            <div class="component2">
+            <div class="component two">
                 <div>
                     <h2>Trainings</h2>
+                    <img style="width:40px" src="images/training.svg"/>
                     <p>Give us a call for staff trainings</p>
                     <p>+27 000 0000</p>
                 </div>
             </div>
-            <div class="component3">
-                <button href="join.html">Join Us</button>
-                <span>Come join this life changing even ,bring your questions and find out how you can establish yout
-                    business</span>
+            <div class="component three">
+                <button class="joinBtn" href="join.html">Join Us</button>
+                <p>Come join this life changing even ,bring your questions and find out how you can establish yout
+                    business</p>
 
             </div>
 
         </div>
         <!----
        -->
-        <div class="rightbar">
-            <div class="component4">
+        <div class="rightside">
+            <div class="component four">
                 <h2>Consultations</h2>
                 <label>Accouting:<span>+27 100 0000</span></label>
 
             </div>
-            <div class="component5">
+            <div class="component five">
                 <h2>Annual Enterprenuer`s conference</h2>
                 <span>This year`s Enterprenuer`s annual conference will be held in the beautifull city of
                     CapeTown</span>
 
             </div>
-            <div class="component6">
-                <h2>Contacts</h2>
+            <div class="component six">
+                <h2><img src="images/contact.svg"></h2>
                 <p>hhhhhh@commercechamper.co.za</p>
                 <p>Phone:27 000 0000</p>
             </div>
@@ -141,9 +148,9 @@
 
     </footer>
 
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/lazy.js"></script>
-    <script src="scripts/script.js"></script>
+    <script type="module" src="scripts/windchill.js"></script>
+    <script type="module" src="scripts/lazy.js"></script>
+    <script type="module" src="scripts/script.js"></script>
 </body>
 
 </html>

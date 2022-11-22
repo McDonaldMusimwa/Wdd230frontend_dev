@@ -36,22 +36,37 @@
    }
 
    .leftside {
-
-      display: flex;
-      flex-direction: column;
-      width: 95vw;
+      margin: 1rem;
+      width: 90vw;
+      grid-column: 1/4;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      justify-content: center;
+      align-items: center;
       height: 80vh;
 
    }
-
+   .one{
+      grid-column: 1/2;
+      margin-left: 0.2rem;
+   }
+   .two{
+      grid-column: 2/3;
+   }
+   .three{
+      grid-column: 1/3;
+      width: 97%;
+      margin-left: .4rem;
+   }
    .hero {
       width: 100%;
-      height: 100%;
+      
    }
 
 
    .middle {
-      width: 100vw;
+      margin: 1rem;
+      width: 90vw;
       grid-column: 1/4;
       display: flex;
       flex-direction: column;
@@ -60,18 +75,26 @@
       height: 80vh;
    }
 
-   .middle .hero {
+   .middle>.hero {
       grid-column: 2/3;
-
+      width: 95%;
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 80%;
+      
 
    }
-
-   .middle .updates {
+   .hero>picture{
+      overflow: hidden;
+      height: 100%;
       width: 100%;
+   }
+   .updates, h2, ul{
+      overflow: hidden;
+   }
+   .middle>.updates {
+     
+      width: 96%;
       height: 15%;
       padding: 10px;
       display: flex;
