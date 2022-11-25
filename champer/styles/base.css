@@ -137,7 +137,7 @@ nav ul li a {
 }
 
 
-nav ul li.active a {
+nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.2);
     color: var(--light);
 }
@@ -648,3 +648,63 @@ label {
     overflow: hidden;
     margin: 2px;
 }
+
+
+/* Contact Us*/
+
+.contactmiddle{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    
+}
+.left{
+    width: 200px;
+    background-color: rgba(152, 200, 150, 0.40);
+    padding: 15px;
+    border-radius: 8px;
+}
+.left>h2{
+    text-decoration: underline;
+}
+
+
+.heroimg{
+    width: 250px;
+    height: 200px;
+}
+
+.right{
+height: 200px;
+
+}
+.image2{
+    width: 200px;
+}
+#image3{
+    width: 250px;height: 300px; 
+}
+
+.office{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.heroimg2{
+    width: 250px;
+    border-radius: 5%;
+}
+.details{
+    padding: 20px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#contactform{
+    width: 250px;
+ }

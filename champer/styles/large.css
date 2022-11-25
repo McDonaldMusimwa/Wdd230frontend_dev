@@ -248,6 +248,8 @@
     form {
         overflow-y: hidden;
         height: 100%;
+        font-size:x-large;
+       
     }
 
     .mainhomejoin {
@@ -310,7 +312,12 @@
     }
 
     .card {
-        width: 350px;
+        width: 420px;
+        height: 470px;
+    }
+
+    .card>p{
+        height: 30px;
     }
 
     .mainhomedire h2 {
@@ -320,5 +327,28 @@
     footer {
         font-size: 15px;
     }
-
+  /* contact us page*/
+  .mainhome2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .contactperson{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .contactform{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .contactmiddle{
+      width: 550px;
+    }
+    .image2{
+        height: 600px;
+    }
+    #image3{
+        height: 400px;
+        width: 500px;
+    }
 }

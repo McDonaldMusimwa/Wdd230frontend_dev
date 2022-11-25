@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="McDonald Musimwa" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta property="og:description"
+        content="The champer of commerce offers professional tech advice and tech services to businesses about how to maximizer their online presence  " />
+    <title>Champer of Commerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="topheader">
+            <img class="logo" src="images/logo.png" alt="logo" />
+            <h1>Choriso Champer of commerce</h1>
+            <a href="https://www.linkedin.com/in/mcdonald-musimwa-434589124" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+
+        </div>
+
+
+        <nav>
+            <button id="humburgerBtn">
+                <span>&#9776;</span>
+                <span>X</span>
+            </button>
+
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discovery</a></li>
+                <li><a href="directory.html">Director</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+        </nav>
+        <div class="date"></div>
+    </header>
+
+    <main class="mainhome2">
+
+        <div class="contactmiddle">
+
+
+            <div class="right">
+                <picture class="image2">
+                    <source media="(max-width:200px)" srcset="images/office.base.jpg" alt="office in capetown">
+                    <source media="(max-width:500px)" src="images/office.base.jpg" alt="office in capetown">
+                    <source media="(max-width:800px)" srcset="images/office.jpg" alt="office in capetown">
+                    <img id="image3" src="images/office.jpg"
+                        alt="office in capetown" />
+
+                </picture>
+
+            </div>
+            <div class="left">
+                <h2>Contact Us</h2>
+                <span style="font-weight:bold ;">Choriso Champer of commerce</span>
+                <p>1 Coach Road</p>
+                <p>Wynberg CapeTown</p>
+
+            </div>
+        </div>
+        <div class="office">
+            <div class="contactperson">
+                <picture class="image3">
+                    <source media="(max-width:200px)" srcset="images/ben1.jpg" alt="office in capetown">
+                    <source media="(max-width:500px)" src="images/ben1.jpg" alt="office in capetown">
+                    <source media="(max-width:800px)" srcset="images/ben.jpg" alt="office in capetown">
+                    <img class="heroimg2" src="images/ben.jpg" alt="office in capetown" />
+
+                </picture>
+                <div class="details">
+                    <h3 style="font-weight: bold;">General enquiries</h3>
+                    <span>Ben and team are always happy to answer general inquiries or route you to the right person to
+                        address
+                        your questions! Give us a call or fill out the form below.</span>
+                    <div>📞 +27 67 103 3055</div>
+                </div>
+            </div>
+            <form id="contactform">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="top">First name*<input type="text" name="fname" required></label>
+                    <label class="top">Last name*<input type="text" name="lname" required></label>
+                    <label class="top">title* <select>
+                            <option value="Please select">Please select&#9662</option>
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="other">Other</option>
+
+                        </select></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"
+                            required></label>
+                    <label class="top">Phone*<input type="tel" name="phone" placeholder="123555666"></label>
+                    <label class="top">Busines name<input type="text" name="bname" required></label>
+
+                    <div>Give us a details about your enquiries</div>
+                    <label class="text"><input style="width:87%;" type="textarea" name="tarea"></label>
+
+                </fieldset>
+
+
+
+
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <img class="logo" src="./images/logo.jpg" alt="logo" />
+
+        <section class="contact">
+            <h3>Choriso Champer of commerce</h3>
+            <p>| info: mcdonald.musimwa74@gmail.com |</p>
+            <p>
+                <a
+                    href="https://www.google.com/maps/place/1+Coach+Rd,+Wynberg,+Cape+Town,+7800/@-33.9992151,18.4557451,3a,75y,150.74h,85.72t/data=!3m6!1e1!3m4!1syTeU4irYfaPWB_RYpOfqDg!2e0!7i13312!8i6656!4m5!3m4!1s0x1dcc42ebc885a3fb:0xa198bf37d00d1ca9!8m2!3d-33.9997883!4d18.4561197?hl=en">📍Location
+                    map
+                </a>
+            </p>
+        </section>
+        <section class="footbottom">
+            <p>&copy;:Champer of commerce 2022</p>
+            <p>| developed by McDonald Musimwa |</p>
+            <span>Last Modified :<date id="date"></date>
+            </span>
+        </section>
+
+    </footer>
+
+    <script type="module" src="scripts/windchill.js"></script>
+    <script type="module" src="scripts/lazy.js"></script>
+    <script type="module" src="scripts/script.js"></script>
+</body>
+
+</html>
