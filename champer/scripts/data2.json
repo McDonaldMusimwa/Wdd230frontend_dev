@@ -1,0 +1,29 @@
+[
+    {
+        "name": "illustrate",
+        "logo": "https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2012/07/business-logo-design-25.jpg",
+        "address": "1 Harvey Brown Road Harare milton park",
+        "phone": "📞+263 67 103 442",
+        "site": "https://mcdonaldmusimwa.github.io/FitClub/",
+        "category":"design",
+        "membershiplevel":"Gold"
+    },
+    {
+        "name": "FitClub",
+        "logo": "https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2012/07/business-logo-design-23.jpg",
+        "address": "27 Maynard road Wyneberg Capetown",
+        "phone": "📞+27 61 103 442",
+        "site": "https://mcdonaldmusimwa.github.io/FitClub/",
+        "category":"💪fitness",
+        "membershiplevel":"Silver"
+    },
+    {
+        "name": "etel",
+        "logo": "https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2012/07/business-logo-design-24.jpg",
+        "address": "mojo market seapoint",
+        "phone": "📞+27 61 493 542",
+        "site": "https://mcdonaldmusimwa.github.io/FitClub/",
+        "category":"📱techsales",
+        "membershiplevel":"Silver"
+    }
+]
