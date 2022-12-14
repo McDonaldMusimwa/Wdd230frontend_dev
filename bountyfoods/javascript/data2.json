@@ -1,0 +1,32 @@
+[{
+    "product":"/assets/couple.jpg",
+    "description":"vegetables",
+    "fruit":"apple"
+},
+{
+    "product":"/assets/lemonslices.jpg",
+    "description":"fruits",
+    "fruit":"strawberry"
+},
+{
+    "product":"/assets/family.jpg",
+    "description":"smoothies",
+    "fruit":"orange"
+},
+{
+    "product":"/assets/applejuice.jpg",
+    "description":"drinks",
+    "fruit":"blue berries"
+},
+{
+    "product":"/assets/berries.jpg",
+    "description":"honey",
+    "fruit":"strawberry"
+},
+{
+    "product":"/assets/strawberry.jpg",
+    "description":"organicmeals",
+    "fruit":"strawberry"
+
+}
+]

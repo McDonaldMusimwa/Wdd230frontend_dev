@@ -1,0 +1,346 @@
+/*Add media query*/
+@media only screen and (min-width: 35rem) {
+  nav button {
+    display: none;
+  }
+  nav ul#primaryNav {
+    display: flex;
+    margin-left: 2vw;
+    justify-content: flex-end;
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  /* hERO Area*/
+  .hero {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .heroimage {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  .hero section {
+    grid-column: 1/2;
+    padding: 8px;
+  }
+  #orderBtn {
+    display: block;
+    padding: 5px;
+    width: 200px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 8px;
+    border: 0.1px solid var(--fontcolor);
+    margin-left: 3rem;
+  }
+  #orderBtn:hover {
+    background-color: var(--tertiary);
+    color: var(--fontcolor);
+  }
+
+  .heroimg {
+    width: 100%;
+    height: 90%;
+    padding: 2px;
+  }
+
+  /* Products sport lights area*/
+  .products {
+    padding: 5px;
+    width: 96.5vw;
+    height: 90vh;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1px;
+    border: 1px solid black;
+  }
+  .product {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 8px;
+    text-align: center;
+  }
+  .deliveries {
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+  /* weather section */
+  .weather {
+    margin-top: 10px;
+    border: 1px solid black;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+    height: 40vh;
+  }
+  .weather > img {
+    width: 90px;
+  }
+  #booked {
+    width: 90%;
+  }
+  .weathercard {
+    width: 100%;
+    height: 30%;
+  }
+
+  #currenttemp{
+    display: flex;
+    flex-direction: column;
+  }
+  #currenttemp>img{
+    width: 40px;
+    margin-left: 10rem;  
+  }
+  /*media*/
+
+  .pics {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: px;
+    padding: 5px;
+    width: 96.5vw;
+    height: 90vh;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1px;
+    border: 1px solid black;
+  }
+  .socials {
+    width: 150px;
+    height: 120px;
+  }
+  .product-socials {
+    width: 100%;
+    height: 90%;
+    padding: 2px;
+  }
+
+  /*footer*/
+  .fa {
+    color: var(--fontcolor);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  .socials:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
+
+  .sociallinks {
+    background-color: var(--secondary);
+    text-align: center;
+  }
+  footer {
+    background-color: var(--tertiary);
+  }
+  .footbottom {
+    background-color: var(--secondary);
+  }
+  .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 11rem;
+    border: 1px solid white;
+    background-color: var(--secondary);
+    height: 160px;
+    width: 275px;
+  }
+  #footermain {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact {
+    margin: 1rem;
+  }
+  .phones {
+    background-color: var(--tertiary);
+    border: 1px solid rgb(243, 241, 241);
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 120px;
+    width: 270px;
+  }
+  .phones li {
+    margin: 1px;
+  }
+  .phone ul {
+    text-align: center;
+  }
+  .card > h5 {
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+  }
+  .contactBtn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 1px solid var(--secondary);
+    padding: 3px;
+    align-content: center;
+    text-align: center;
+  }
+
+  /*form */
+  #form{
+    background-image: url(/assets/greenies.jpg);
+    background-size: 1000px 1600px;
+  }
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0.5rem 2%;
+  }
+
+  form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+  }
+
+  form label.top,
+  form div {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: 0.8rem;
+  }
+
+  form label.top input,
+  form label.top select,
+  form div.sbs select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 88%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  form label.text input {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 90%;
+    max-width: 42rem;
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  form label.sbs {
+    display: block;
+    padding: 0.75rem 0;
+    color: #555;
+  }
+  .drinkBtn {
+    height: 40px;
+    margin-bottom: 40px;
+    margin-left: 0.1rem;
+  }
+  /* modal */
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 55%;
+  }
+  .modal-content > span {
+    display: block;
+  }
+  .modal-content > label {
+    border: 1px solid black;
+    display: block;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 4px;
+  }
+
+  /* The Close Button */
+  .close {
+    display: block;
+
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*modal nutriotion table*/
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: 1px;
+    font-family: var(--paragraph);
+    width: 100%;
+    font-size: 10px;
+    font-weight: bolder;
+    border-radius: 8px;
+  }
+
+  table {
+    box-shadow: 1px 1px 4px 1px #888;
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--tertiary); /* Desert Sand */
+  }
+
+  .Theader th {
+    background-color: var(--secondary); /* Rufous */
+    color: white;
+  }
+
+  .Tsubhead th {
+    background-color: var(--tertiary); /* Redwood */
+    color: white;
+  }
+}

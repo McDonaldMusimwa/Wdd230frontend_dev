@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="McDonald Musimwa" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta
+      property="og:description"
+      content="Bounty foods is an organic fruit and veg shop"
+    />
+    <title>Bounty Foods</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,300;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/medium.css" />
+    <link rel="stylesheet" href="./styles/large.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="topheader">
+        <img class="logo" src="assets/logo.png" alt="logo" />
+        <h1>Bounty Foods</h1>
+      </div>
+      <div style="background-color: white" class="date"></div>
+
+      <nav>
+        <button id="humburgerBtn">
+          <span>&#9776;</span>
+          <span>X</span>
+        </button>
+
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="fresh.html">Fresh</a></li>
+          <li><a href="Aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="mainhome">
+      <div class="hero">
+        <picture class="heroimage">
+          <source
+            media="(max-width:200px)"
+            srcset="assets/vegi.jpg"
+            alt="three business associates sitting around a table discussing"
+          />
+          <source
+            media="(max-width:500px)"
+            src="assets/vegi.jpg"
+            alt="three business associates sitting around a table discussing"
+          />
+          <source
+            media="(max-width:800px)"
+            srcset="assets/vegi.jpg"
+            alt="three business associates sitting around a table discussing"
+          />
+          <img class="heroimg" src="assets/vegi.jpg" alt="" />
+        </picture>
+        <section>
+          <h2>The Heart of Good Food</h2>
+          <p style="display: inline">
+            Imagine if you can wake up to fresh picked fruits what about fresh
+            vegies.Bounty Foods is your daily fruit and vegetable supply.We
+            source our organic from local farms we can trace each fruit back to
+            its tree.
+          </p>
+          <button id="orderBtn" href="fresh.html">Order Now</button>
+        </section>
+      </div>
+      <div class="products"></div>
+      <div class="Locations">
+      <div class="deliveries">
+        <h3>Delivery 📍Locations</h3>
+        <ul>
+          <li>Los Angels</li>
+          <li>Sacramento</li>
+        </ul>
+      </div>
+      <!-- weather widget start -->
+      <section class="weather">
+        <div id="booked">
+          <div class="weathercard">
+            <div class="weatherhead">Carlsbad</div>
+            <label  id="today">Date: <span class="day1"></span></label>
+            <div class="booked-weather-120x100-degree w06" id="currenttemp">
+              <label class="plus">Temp: <span class="day1temp">22</span>&deg C</label>
+              <img class="day1Icon" src="" alt="" />
+              <span class="day1desc"></span>
+              <label class="plus">Humidity: <span class="day1humid">22</span>%</label>
+            </div>
+            
+          </div>
+        </div>
+        <div id="booked">
+          <div class="weathercard">
+            <div class="weatherhead">Carlsbad</div>
+            <label id="today">Date: <span class="day2"></span></label>
+            <div class="booked-weather-120x100-degree w06" id="currenttemp">
+              <label class="plus">Temp: <span class="day2temp">22</span>&deg C</label>
+              <img class="day2Icon" src="" alt="" />
+              <span class="day2desc"></span>
+              <label class="plus">Humidity: <span class="day2humid">22</span>%</label>
+            </div>
+
+          </div>
+        </div>
+        <div id="booked">
+          <div class="weathercard">
+            <div class="weatherhead">Carlsbad</div>
+            <label id="today">Date: <span class="day3"></span></label>
+            <div class="booked-weather-120x100-degree w06" id="currenttemp">
+              <label class="plus">Temp: <span class="day3temp">22</span>&deg C</label>
+              <img class="day3Icon" src="" alt="" />
+              <span class="day3desc"></span>
+              <label class="plus">Humidity: <span class="day3humid">22</span>%</label>
+            </div>
+           
+          </div>
+        </div>
+        <div id="booked">
+          <div class="weathercard">
+            <div class="weatherhead">Carlsbad</div>
+            <label id="today">Date: <span class="day4"></span></label>
+            <div class="booked-weather-120x100-degree w06" id="currenttemp">
+              <label class="plus">Temp: <span class="day4temp">22</span>&deg C</label>
+              <img class="day4Icon" src="" alt="" />
+              <span class="day4desc"></span>
+              <label class="plus">Humidity: <span class="day4humid">22</span>%</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- instagram area-->
+      <div class="media">
+        <h4 style="font-size: 28px; color: red">
+          <i class="fa">&#xf16d;</i> Instagram
+        </h4>
+
+        <p>
+          Feast your eyes on our wholesome foods & fall in love with Healty
+          lifestyle
+        </p>
+        <div class="pics"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="sociallinks">
+        <a
+          href="https://www.linkedin.com/in/mcdonald-musimwa-434589124"
+          class="fa fa-linkedin"
+        ></a>
+        <a href="#" class="fa fa-twitter"></a>
+      </div>
+      <div id="footermain">
+        <section class="card contact">
+          <h5>Customer Care</h5>
+          <div class="phones">
+            <ul>
+              <li>📞 +27 67 202 6721</li>
+              <li>📞 +27 65 702 6521</li>
+              <li>📞 +27 67 303 4721</li>
+              <button class="contactBtn" style="width: 150px">
+                Contact Us
+              </button>
+            </ul>
+          </div>
+        </section>
+
+        <section class="contact">
+          <img class="logo" src="assets/logo.png" alt="logo" />
+
+          <h3>Bounty Foods</h3>
+          <p>| info: mcdonald.musimwa74@gmail.com |</p>
+          <p>
+            <a
+              href="https://www.google.com/maps/place/1+Coach+Rd,+Wynberg,+Cape+Town,+7800/@-33.9992151,18.4557451,3a,75y,150.74h,85.72t/data=!3m6!1e1!3m4!1syTeU4irYfaPWB_RYpOfqDg!2e0!7i13312!8i6656!4m5!3m4!1s0x1dcc42ebc885a3fb:0xa198bf37d00d1ca9!8m2!3d-33.9997883!4d18.4561197?hl=en"
+              >📍Location map
+            </a>
+          </p>
+        </section>
+      </div>
+      <section class="footbottom">
+        <p>&copy;:Bounty Foods 2022</p>
+        <p>| developed by McDonald Musimwa |</p>
+        <span>Last Modified :<date id="date"></date> </span>
+      </section>
+    </footer>
+
+    <script type="module" src="javascript/weather.js"></script>
+    <script type="module" src="javascript/lazy.js"></script>
+    <script type="module" src="javascript/script.js"></script>
+    <script type="module" src="javascript/spotlight.js"></script>
+    <script type="module" src="javascript/form.js"></script>
+  </body>
+</html>

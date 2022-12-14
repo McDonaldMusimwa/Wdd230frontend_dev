@@ -1,0 +1,400 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Nerko+One&display=swap");
+
+:root {
+  /* Colors for the font and site layout */
+  --fontcolor: #000000;
+  --primary: #eff1ee;
+  --secondary: #396e03;
+  --tertiary: #9ef01a;
+
+  /*font family variables*/
+  --headings: "Nerko One", cursive;
+  --paragraph: "Exo 2", sans-serif;
+}
+* {
+  overflow-x: hidden;
+}
+body {
+  background-color: var(--primary);
+  
+  
+}
+.date,day{
+  font-family: var(--headings);
+  font-size: 20px;
+  overflow: hidden;
+}
+.products>section{
+  overflow: hidden;
+  text-align: center;
+}
+label{
+  font-family: var(--headings);
+  overflow: hidden;
+}
+h1,h2,h3,h5
+{
+  margin: 0 2vw;
+  font-family: var(--headings);
+  overflow: hidden;
+}
+p,button,.date{
+  font-family: var(--paragraph);
+}
+
+/*HEADER css*/
+nav {
+  background-color: var(--tertiary);
+}
+nav button {
+  margin: 0.2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+#humburgerBtn span:nth-child(1) {
+  display: block;
+}
+#humburgerBtn span:nth-child(2) {
+  display: none;
+}
+#humburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#humburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.topheader {
+  height: 140px;
+  background-color: var(--primary);
+  display: flex;
+}
+
+.logo {
+  height: 100px;
+  border-radius: 40%;
+}
+
+/* hERO Area*/
+.hero {
+  text-align: center;
+}
+#orderBtn {
+  display: block;
+  padding: 15px;
+  width: 275px;
+  height: 70px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  border-radius: 8px;
+  border: 0.1px solid var(--fontcolor);
+}
+#orderBtn:hover {
+  background-color: var(--tertiary);
+  color: var(--fontcolor);
+}
+
+.heroimg {
+  width: 295px;
+  height: 150px;
+}
+
+/* Products sport lights area*/
+.products {
+  padding: 5px;
+  width: 265px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1px;
+  border: 1px solid black;
+}
+.product {
+  width: 120px;
+  height: 100px;
+  display: flex;
+  margin: 8px;
+  text-align: center;
+}
+.deliveries {
+  margin-top: 10px;
+  border: 1px solid black;
+}
+/* weather section */
+.weather {
+  margin-top: 10px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  align-items: center;
+}
+.weather > img {
+  width: 90px;
+}
+.booked {
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  width: 80px !important;
+}
+.weatherhead{
+  background-color: #9ef01a; color: #ffffff;
+  display: block;
+}
+#currenttemp{
+  display: flex;
+  flex-direction: column;
+}
+#currenttemp>img{
+  width: 40px;
+ margin-left: 3rem;
+}
+
+/*media*/
+
+.pics {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: px;
+}
+.product-socials {
+  width: 140px;
+  height: 100px;
+  overflow: hidden;
+}
+
+/*footer*/
+.fa {
+  color: var(--fontcolor);
+  font-size: 28px;
+  text-decoration: none;
+}
+.product-socials:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.sociallinks {
+  background-color: var(--secondary);
+  text-align: center;
+}
+footer {
+  background-color: var(--tertiary);
+}
+.footbottom {
+  background-color: var(--secondary);
+}
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  background-color: var(--secondary);
+  height: 160px;
+  width: 275px;
+}
+.phones {
+  background-color: var(--tertiary);
+  border: 1px solid rgb(243, 241, 241);
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 120px;
+  width: 270px;
+}
+.phones li {
+  margin: 1px;
+}
+.phone ul {
+  text-align: center;
+}
+.card > h5 {
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+}
+.contactBtn {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: 1px solid var(--secondary);
+  padding: 3px;
+  align-content: center;
+  text-align: center;
+}
+
+/*form */
+form{
+  font-family: var(--paragraph);
+}
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  color: black;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: red;
+  font-size: 0.8rem;
+}
+
+form label.top input,
+form label.top select,
+form div.sbs select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 88%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.text input {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 90%;
+  max-width: 42rem;
+  height: 10rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
+}
+.drinkBtn {
+  height: 40px;
+  margin-bottom: 40px;
+  margin-left: 0.1rem;
+}
+/* modal */
+ /* The Modal (background) */
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: 80%;
+}
+.modal-content>span{
+  display: block;
+}
+.modal-content >label{
+  border: 1px solid black;
+  display: block;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 4px;
+}
+
+/* The Close Button */
+.close {
+  display: block;
+  
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*modal nutriotion table*/
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-right: auto;
+  margin-left: 1px;
+  font-family: var(--paragraph);
+  width: 50px;
+  font-size: 10px;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+
+table {
+  box-shadow: 1px 1px 4px 1px #888;
+}
+
+tr:nth-child(even) {
+  background-color:var(--tertiary); /* Desert Sand */
+}
+
+.Theader th {
+  background-color: var(--secondary); /* Rufous */
+  color: white;
+}
+
+.Tsubhead th {
+  background-color: var(--tertiary); /* Redwood */
+  color: white;
+}
+

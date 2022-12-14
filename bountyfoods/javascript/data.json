@@ -1,0 +1,25 @@
+[{
+    "product":"/assets/avo.jpg",
+    "description":"vegetables"
+},
+{
+    "product":"/assets/citrus.jpg",
+    "description":"fruits"
+},
+{
+    "product":"/assets/smoothies.jpg",
+    "description":"smoothies"
+},
+{
+    "product":"/assets/juice.jpg",
+    "description":"drinks"
+},
+{
+    "product":"/assets/honey.jpg",
+    "description":"honey"
+},
+{
+    "product":"/assets/fresh.jpg",
+    "description":"organicmeals"
+}
+]
